@@ -681,3 +681,15 @@ a:hover .icon {
   text-align: center;
   
 }
+.logo{
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+}
+.nav-sec{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 1800px;
+}
