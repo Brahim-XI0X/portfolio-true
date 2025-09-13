@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Brahim Front-End</title>
+  <link rel="stylesheet" href="cssstyle.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous" ></script> <!-- غيّر الـ "your-code" -->
+</head>
+<body>
+
+  <!-- ✅ Header -->
+  <header>
+    <nav>
+        <button class="menu-toggle">☰</button>
+      <h1><img src="" alt=""></h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Who am I</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact me</a></li>
+      </ul>
+      <button id="toggle-dark-mode" class="dark-mode-toggle">🌙</button>
+     
+    </nav>
+  </header>
+
+  <!-- ✅ Hero Section -->
+  <section id="home" data-aos="fade-up">
+    <div class="home-sic">
+      <h2>Hello, I am Ibrahim Bdhiafi</h2>
+    <p>Junior Front-End Developer & Programming Student</p>
+    <a href="#projects" class="btn">Show My projects</a>
+    </div>
+  </section>
+
+  <!-- ✅ About -->
+  <section id="about" data-aos="zoom-in">
+   <div class="about-sec">
+     <h2>Who am I</h2>
+    <p>I'm an ambitious Tunisian young man who loves technology and loves to learn and develop my programming skills. We're currently learning the basics of front-end development.</p>
+    <a href="#" download class="btn-download" data-aos="fade-up">
+    Download CV
+</a>
+   </div>
+  </section>
+
+  <!-- ✅ Skills -->
+  <section id="skills" data-aos="flip-right">
+    <div class="skills-sec">
+      <h2>Skills</h2>
+    <ul class="title-skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git & GitHub</li>
+    </ul>
+    </div>
+    </ul>
+  </section>
+
+  <!-- ✅ Projects -->
+  <section id="projects" data-aos="slide-left">
+    
+    <div class="project-sec">
+      <h2>Projects</h2>
+      <div class="project">
+      <h3>Landing page CoffeeShop</h3>
+      <fieldset><a href="https://brahim-xi0x.github.io/la-leyenda/index.html#" class="link-project">Click to Show</a></fieldset>
+    </div>
+      
+    </div>
+  </section>
+
+  <!-- ✅ Contact -->
+  <section id="contact" data-aos="zoom-out">
+  <div class="contact-sec">
+      <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder=" Email" required />
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">submit</button>
+    </form>
+  </div>
+  </section>
+
+  <!-- ✅ Footer -->
+  <footer>
+    <p>© 2025 Ibrahim Bdhiafi - All rights reserved/p>
+     <li>
+      <a href="https://github.com/Brahim-XI0X" target="_blank" rel="noopener noreferrer" title="GitHub">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" alt="GitHub" class="icon" />
+      </a>
+    </li>
+  </ul>
+  </footer>
+
+  <script src="jscode.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
