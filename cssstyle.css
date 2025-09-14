@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: 'Cairo', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
   background-color: #f8f9fa;
@@ -692,4 +695,33 @@ a:hover .icon {
   justify-content: space-around;
   align-items: center;
   width: 1800px;
+}
+.social-link-list{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    justify-content: center;
+    color: #fff;
+    font-size: 25px;
+    transition: 1s;
+
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+}
+.con{
+  list-style: none;
+  text-align: center;
+}
+.social-link{
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+}
+.social-link:hover{
+  color: #3b3f99;
 }
